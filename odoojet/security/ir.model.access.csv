@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_odoojet_rule,odoojet_rule,model_odoojet_rule,base.group_user,1,1,1,1
+access_odoojet_log,odoojet_log,model_odoojet_log,base.group_user,1,1,1,1
+access_odoojet_log_line,odoojet_log_line,model_odoojet_log_line,base.group_user,1,1,1,1
+access_odoojet_http_session,odoojet_http_session,model_odoojet_http_session,base.group_user,1,1,1,1
+access_odoojet_http_request,odoojet_http_request,model_odoojet_http_request,base.group_user,1,1,1,1
+access_buttons_nodes,buttons_nodes,model_buttons_nodes,base.group_user,1,1,1,1
