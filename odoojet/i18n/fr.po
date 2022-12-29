@@ -1,0 +1,518 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * odoojet
+#
+# Translators:
+# OCA Transbot <transbot@odoo-community.org>, 2017
+# Nicolas JEUDY <njeudy@panda-chi.io>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-03 10:08+0000\n"
+"PO-Revision-Date: 2018-03-03 10:08+0000\n"
+"Last-Translator: Nicolas JEUDY <njeudy@panda-chi.io>, 2018\n"
+"Language-Team: French (https://www.transifex.com/oca/teams/23907/fr/)\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+
+#. module: odoojet
+#: model:ir.ui.menu,name:odoojet.menu_audit
+msgid "Audit"
+msgstr "Audit"
+
+#. module: odoojet
+#: model:ir.model,name:odoojet.model_odoojet_http_session
+msgid "odoojet - HTTP User session log"
+msgstr "odoojet - Journal des session utilisateur en HTTP"
+
+#. module: odoojet
+#: model:ir.model,name:odoojet.model_odoojet_http_request
+msgid "odoojet - HTTP request log"
+msgstr "odoojet - Journal des requêtes HTTP"
+
+#. module: odoojet
+#: model:ir.model,name:odoojet.model_odoojet_log
+msgid "odoojet - Log"
+msgstr "odoojet - Log"
+
+#. module: odoojet
+#: model:ir.model,name:odoojet.model_odoojet_log_line
+msgid "odoojet - Log details (fields updated)"
+msgstr "odoojet - Détails (champs modifiés)"
+
+#. module: odoojet
+#: model:ir.model,name:odoojet.model_odoojet_rule
+msgid "odoojet - Rule"
+msgstr "odoojet - Règle"
+
+#. module: odoojet
+#: model:ir.actions.server,name:odoojet.ir_cron_odoojet_autovacuum_ir_actions_server
+#: model:ir.cron,cron_name:odoojet.ir_cron_odoojet_autovacuum
+#: model:ir.cron,name:odoojet.ir_cron_odoojet_autovacuum
+msgid "Auto-vacuum audit logs"
+msgstr "Vidage automatique des logs d'audit"
+
+#. module: odoojet
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_http_request__user_context
+msgid "Context"
+msgstr "Contexte"
+
+#. module: odoojet
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_autovacuum__create_uid
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_http_request__create_uid
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_http_session__create_uid
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log__create_uid
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log_line__create_uid
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_rule__create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: odoojet
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_autovacuum__create_date
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_http_request__create_date
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_http_session__create_date
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log__create_date
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log_line__create_date
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_rule__create_date
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_http_request_search
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_http_session_search
+msgid "Created on"
+msgstr "Date"
+
+#. module: odoojet
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_line_search
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_log_search
+msgid "Date"
+msgstr "Date"
+
+#. module: odoojet
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log_line__field_description
+msgid "Description"
+msgstr "Description"
+
+#. module: odoojet
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_autovacuum__display_name
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log__display_name
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log_line__display_name
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_rule__display_name
+msgid "Display Name"
+msgstr "Nom affiché"
+
+#. module: odoojet
+#: model:ir.model.fields.selection,name:odoojet.selection__odoojet_rule__state__draft
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_rule_search
+msgid "Draft"
+msgstr "Brouillon"
+
+#. module: odoojet
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log_line__field_id
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_line_search
+msgid "Field"
+msgstr "Champ"
+
+#. module: odoojet
+#: code:addons/odoojet/models/rule.py:0
+#, python-format
+msgid "Field 'model_id' cannot be empty."
+msgstr ""
+
+#. module: odoojet
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_rule__fields_to_track_ids
+msgid "Fields to Exclude"
+msgstr ""
+
+#. module: odoojet
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log__line_ids
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_log_form
+msgid "Fields updated"
+msgstr "Champs modifiés"
+
+#. module: odoojet
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_http_request_search
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_http_session_search
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_line_search
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_log_search
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_rule_search
+msgid "Group By..."
+msgstr "Grouper par..."
+
+#. module: odoojet
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_log_form
+msgid "HTTP Context"
+msgstr "Contexte HTTP"
+
+#. module: odoojet
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log__http_request_id
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log_line__http_request_id
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_http_request_form
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_line_search
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_log_search
+msgid "HTTP Request"
+msgstr "Requête HTTP"
+
+#. module: odoojet
+#: model:ir.actions.act_window,name:odoojet.action_odoojet_http_request_tree
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_http_session__http_request_ids
+#: model:ir.ui.menu,name:odoojet.menu_action_odoojet_http_request_tree
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_http_request_search
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_http_session_form
+msgid "HTTP Requests"
+msgstr "Requêtes HTTP"
+
+#. module: odoojet
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_autovacuum__id
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_http_request__id
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_http_session__id
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log__id
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log_line__id
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_rule__id
+msgid "ID"
+msgstr "ID"
+
+#. module: odoojet
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_autovacuum____last_update
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_http_request____last_update
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_http_session____last_update
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log____last_update
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log_line____last_update
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_rule____last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: odoojet
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_autovacuum__write_uid
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_http_request__write_uid
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_http_session__write_uid
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log__write_uid
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log_line__write_uid
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_rule__write_uid
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. module: odoojet
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_autovacuum__write_date
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_http_request__write_date
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_http_session__write_date
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log__write_date
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log_line__write_date
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_rule__write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: odoojet
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log_line__log_id
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_log_form
+msgid "Log"
+msgstr "Log"
+
+#. module: odoojet
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_log_form
+msgid "Log - Field updated"
+msgstr "Log - Champs modifiés"
+
+#. module: odoojet
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_rule__log_create
+msgid "Log Creates"
+msgstr "Enregistrer les créations"
+
+#. module: odoojet
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_rule__log_unlink
+msgid "Log Deletes"
+msgstr "Enregistrer les suppressions"
+
+#. module: odoojet
+#: model:ir.actions.act_window,name:odoojet.action_odoojet_line
+#: model:ir.ui.menu,name:odoojet.menu_odoojet_line
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_line_search
+msgid "Log Lines"
+msgstr ""
+
+#. module: odoojet
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_rule__log_read
+msgid "Log Reads"
+msgstr "Enregistrer les lectures"
+
+#. module: odoojet
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_rule__log_write
+msgid "Log Writes"
+msgstr "Enregistrer les écritures"
+
+#. module: odoojet
+#: model:ir.actions.act_window,name:odoojet.action_odoojet_log_tree
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_http_request__log_ids
+#: model:ir.ui.menu,name:odoojet.menu_audit_logs
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_http_request_form
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_log_search
+msgid "Logs"
+msgstr "Journaux"
+
+#. module: odoojet
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log__method
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log_line__method
+msgid "Method"
+msgstr "Méthode"
+
+#. module: odoojet
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log__model_id
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log_line__model_id
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_rule__model_id
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_line_search
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_log_search
+msgid "Model"
+msgstr "Modèle"
+
+#. module: odoojet
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log__model_name
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log_line__model_name
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_rule__model_name
+msgid "Model Name"
+msgstr ""
+
+#. module: odoojet
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_http_request__display_name
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_http_session__display_name
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_rule__name
+msgid "Name"
+msgstr "Nom"
+
+#. module: odoojet
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log_line__new_value
+msgid "New Value"
+msgstr "Nouvelle valeur"
+
+#. module: odoojet
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log_line__new_value_text
+msgid "New value Text"
+msgstr "Nouvelle valeur texte"
+
+#. module: odoojet
+#: code:addons/odoojet/models/log.py:0
+#, python-format
+msgid "No field defined to create line."
+msgstr ""
+
+#. module: odoojet
+#: code:addons/odoojet/models/rule.py:0
+#, python-format
+msgid "No model defined to create line."
+msgstr ""
+
+#. module: odoojet
+#: code:addons/odoojet/models/log.py:0
+#, python-format
+msgid "No model defined to create log."
+msgstr ""
+
+#. module: odoojet
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log_line__old_value
+msgid "Old Value"
+msgstr "Ancienne valeur"
+
+#. module: odoojet
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log_line__old_value_text
+msgid "Old value Text"
+msgstr "Ancienne valeur texte"
+
+#. module: odoojet
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_http_request__name
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_http_request_search
+msgid "Path"
+msgstr "Chemin"
+
+#. module: odoojet
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log__res_id
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log_line__res_id
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_line_search
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_log_search
+msgid "Resource ID"
+msgstr "ID de l'enregistrement"
+
+#. module: odoojet
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log__name
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log_line__name
+msgid "Resource Name"
+msgstr "Nom de l'enregistrement"
+
+#. module: odoojet
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_http_request__root_url
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_http_request_search
+msgid "Root URL"
+msgstr "URL Racine"
+
+#. module: odoojet
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_rule_form
+msgid "Rule"
+msgstr "Règle"
+
+#. module: odoojet
+#: model:ir.actions.act_window,name:odoojet.action_odoojet_rule_tree
+#: model:ir.ui.menu,name:odoojet.menu_action_odoojet_rule_tree
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_rule_search
+msgid "Rules"
+msgstr "Règles"
+
+#. module: odoojet
+#: model:ir.model.fields,help:odoojet.field_odoojet_rule__model_id
+msgid "Select model for which you want to generate log."
+msgstr "Sélectionnez le modèle pour lequel vous voulez générer un historique."
+
+
+#. module: odoojet
+#: model:ir.model.fields,help:odoojet.field_odoojet_rule__log_create
+msgid ""
+"Select this if you want to keep track of creation on any record of the model "
+"of this rule"
+msgstr ""
+"Cochez cette case si vous voulez garder une trace de la création d'un nouvel "
+"enregistrement concernant le modèle défini dans cette règle."
+
+#. module: odoojet
+#: model:ir.model.fields,help:odoojet.field_odoojet_rule__log_unlink
+msgid ""
+"Select this if you want to keep track of deletion on any record of the model "
+"of this rule"
+msgstr ""
+"Cochez cette case si vous voulez garder une trace des suppressions des "
+"enregistrements du modèle défini dans cette règle."
+
+#. module: odoojet
+#: model:ir.model.fields,help:odoojet.field_odoojet_rule__log_write
+msgid ""
+"Select this if you want to keep track of modification on any record of the "
+"model of this rule"
+msgstr ""
+"Cochez cette case si vous voulez garder une trace des modifications sur "
+"chaque enregistrement du modèle défini dans cette règle."
+
+#. module: odoojet
+#: model:ir.model.fields,help:odoojet.field_odoojet_rule__log_read
+msgid ""
+"Select this if you want to keep track of read/open on any record of the "
+"model of this rule"
+msgstr ""
+"Cochez cette case si vous voulez garder une trace de la lecture/ouverture de "
+"chaque enregistrement du modèle défini dans cette règle."
+
+#. module: odoojet
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_http_request__http_session_id
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log__http_session_id
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log_line__http_session_id
+msgid "Session"
+msgstr "Session"
+
+#. module: odoojet
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_http_session__name
+msgid "Session ID"
+msgstr "ID de session"
+
+#. module: odoojet
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_rule__state
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_rule_search
+msgid "State"
+msgstr "État"
+
+#. module: odoojet
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_rule_form
+msgid "Subscribe"
+msgstr "Abonner"
+
+#. module: odoojet
+#: model:ir.model.fields.selection,name:odoojet.selection__odoojet_rule__state__subscribed
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_rule_search
+msgid "Subscribed"
+msgstr "Abonné"
+
+#. module: odoojet
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log__model_model
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log_line__model_model
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_rule__model_model
+msgid "Technical Model Name"
+msgstr ""
+
+#. module: odoojet
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log_line__field_name
+msgid "Technical name"
+msgstr "Nom technique"
+
+#. module: odoojet
+#: code:addons/odoojet/models/log.py:0
+#, python-format
+msgid "The field 'field_id' cannot be empty."
+msgstr ""
+
+#. module: odoojet
+#: code:addons/odoojet/models/log.py:0
+#, python-format
+msgid "The field 'model_id' cannot be empty."
+msgstr ""
+
+#. module: odoojet
+#: model:ir.model.constraint,message:odoojet.constraint_odoojet_rule_model_uniq
+msgid ""
+"There is already a rule defined on this model\n"
+"You cannot define another: please edit the existing one."
+msgstr ""
+"Il existe déjà une règle définie sur ce modèle\n"
+"Vous ne pouvez pas en définir une nouvelle, vous devez modifier celle "
+"existante."
+
+#. module: odoojet
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_rule_form
+msgid "Unsubscribe"
+msgstr "Désabonner"
+
+#. module: odoojet
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_http_request__user_id
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_http_session__user_id
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log__user_id
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_log_line__user_id
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_http_request_search
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_http_session_search
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_line_search
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_log_search
+msgid "User"
+msgstr "Utilisateur"
+
+#. module: odoojet
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_http_request_search
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_http_session_form
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_line_search
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_log_search
+msgid "User session"
+msgstr "Session utilisateur"
+
+#. module: odoojet
+#: model:ir.actions.act_window,name:odoojet.action_odoojet_http_session_tree
+#: model:ir.ui.menu,name:odoojet.menu_action_odoojet_http_session_tree
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_http_session_search
+msgid "User sessions"
+msgstr "Sessions utilisateur"
+
+#. module: odoojet
+#: model:ir.model.fields,field_description:odoojet.field_odoojet_rule__user_ids
+msgid "Users"
+msgstr "Utilisateurs"
+
+
+#. module: odoojet
+#: model_terms:ir.ui.view,arch_db:odoojet.view_odoojet_log_form
+msgid "Values"
+msgstr "Valeurs"
+
+#. module: odoojet
+#: code:addons/odoojet/models/rule.py:0
+#, python-format
+msgid "View logs"
+msgstr "Consulter les journaux"
+
+#. module: odoojet
+#: model:ir.model.fields,help:odoojet.field_odoojet_rule__user_ids
+msgid "if  User is not added then it will applicable for all users"
+msgstr ""
+"Si l'utilisateur n'est pas ajouté alors cela sera applicable à tous les "
+"utilisateurs"

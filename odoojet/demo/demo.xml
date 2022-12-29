@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="sale_order_rules" model="odoojet.rule">
+        <field name="name">Devis</field>
+        <field name="model_id" ref="sale.model_sale_order" />
+        <field name="log_write" eval="True"/>
+        <field name="log_unlink" eval="True"/>
+        <field name="log_create" eval="True"/>
+        <field name="log_archive" eval="True"/>
+        <field name="log_unarchive" eval="True"/>
+        <field name="log_export" eval="True"/>
+    </record>
+    <record id="stock_picking_rules" model="odoojet.rule">
+        <field name="name">Picking</field>
+        <field name="model_id" ref="stock.model_stock_picking" />
+        <field name="log_write" eval="True"/>
+        <field name="log_unlink" eval="True"/>
+        <field name="log_create" eval="True"/>
+        <field name="log_archive" eval="True"/>
+        <field name="log_unarchive" eval="True"/>
+        <field name="log_export" eval="True"/>
+    </record>
+        <record id="account_move_rules" model="odoojet.rule">
+        <field name="name">Invoice</field>
+        <field name="model_id" ref="account.model_account_move" />
+        <field name="log_write" eval="True"/>
+        <field name="log_unlink" eval="True"/>
+        <field name="log_create" eval="True"/>
+        <field name="log_archive" eval="True"/>
+        <field name="log_unarchive" eval="True"/>
+        <field name="log_export" eval="True"/>
+    </record>
+    <record id="account_payment_rules" model="odoojet.rule">
+        <field name="name">Payment</field>
+        <field name="model_id" ref="account.model_account_payment" />
+        <field name="log_write" eval="True"/>
+        <field name="log_unlink" eval="True"/>
+        <field name="log_create" eval="True"/>
+        <field name="log_archive" eval="True"/>
+        <field name="log_unarchive" eval="True"/>
+        <field name="log_export" eval="True"/>
+    </record>
+    <record id="purchase_order_rules" model="odoojet.rule">
+        <field name="name">Purchase</field>
+        <field name="model_id" ref="purchase.model_purchase_order" />
+        <field name="log_write" eval="True"/>
+        <field name="log_unlink" eval="True"/>
+        <field name="log_create" eval="True"/>
+        <field name="log_archive" eval="True"/>
+        <field name="log_unarchive" eval="True"/>
+        <field name="log_export" eval="True"/>
+    </record>
+</odoo>
