@@ -17,6 +17,8 @@
     'currency': 'EUR',
     "category": "Tools",
     "depends": ["base", "account", "purchase", "stock", "sale"],
+    'images': ['static/description/main.png'],
+
     "data": [
         "demo/demo.xml",
         "security/ir.model.access.csv",
